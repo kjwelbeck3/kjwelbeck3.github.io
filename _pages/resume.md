@@ -57,7 +57,7 @@ external_profile_title: NU MSR Profile
 {% include linkTree.html %}
 </div>
 
-<div class="resume-pdf" ><iframe src="https://docs.google.com/viewer?srcid=1_98blYLeuvxQfZkYiadXWqkQgoQng3jE&amp;pid=explorer&amp;efh=false&amp;a=v&amp;chrome=false&amp;embedded=true" class="resume-pdf-iframe" frameborder="0"></iframe></div> 
+<div class="resume-pdf" ><iframe src="https://docs.google.com/viewer?srcid=1w2-WfWEqZVzXTNN9I9dyjU-vOGAXQiHJ&amp;pid=explorer&amp;efh=false&amp;a=v&amp;chrome=false&amp;embedded=true" class="resume-pdf-iframe" frameborder="0"></iframe></div> 
 </div>
 <!-- </div> -->
 
