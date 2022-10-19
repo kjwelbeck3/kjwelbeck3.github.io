@@ -4,6 +4,10 @@ title:  "Press and education"
 author: sal
 categories: [ Jekyll, tutorial ]
 image: assets/images/7.jpg
+github_url: sth1
+class_link: sth2
+class_name: sth3
+project_period: 101010 - 1212131
 ---
 Even the press, the classroom, the platform, and the pulpit in many instances do not give us objective and unbiased truths. To save man from the morass of propaganda, in my opinion, is one of the chief aims of education. Education must enable one to sift and weigh evidence, to discern the true from the false, the real from the unreal, and the facts from the fiction.
 

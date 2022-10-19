@@ -4,6 +4,10 @@ title:  "External Featured Image"
 author: sal
 categories: [ Jekyll, tutorial, web development ]
 image: "https://images.unsplash.com/photo-1541544537156-7627a7a4aa1c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a20c472bc23308e390c8ffae3dd90c60&auto=format&fit=crop&w=750&q=80"
+github_url: sth1
+class_link: sth2
+class_name: sth3
+project_period: 101010 - 1212131
 ---
 Education must also train one for quick, resolute and effective thinking. To think incisively and to think for one's self is very difficult. 
 

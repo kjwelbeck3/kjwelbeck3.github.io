@@ -8,7 +8,11 @@ image: assets/images/11.jpg
 description: "My review of Inception movie. Acting, plot and something else in this short description."
 featured: true
 hidden: true
-rating: 4.5
+# rating: 4.5
+github_url: sth1
+class_link: sth2
+class_name: sth3
+project_period: 101010 - 1212131
 ---
 
 Review products, books, movies, restaurant and anything you like on your Jekyll blog with Mediumish! JSON-LD ready for review property.
