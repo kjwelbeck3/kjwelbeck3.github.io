@@ -89,3 +89,13 @@
         display: block;
     }
 }
+
+.postsubtitle{
+    font-style: italic;
+    color: #a9a9a9;
+    /* font-size: 16pt; */
+    /* font-weight: 400; */
+    padding: 20px;
+    width: 75%;
+    margin: auto;
+}
