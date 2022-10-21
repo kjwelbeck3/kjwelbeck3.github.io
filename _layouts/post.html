@@ -20,7 +20,7 @@ post_class: post-template
         <div class="col-md-9 flex-first flex-md-unordered">
             <!-- Post Categories -->
             <div class="after-post-cats">
-                <ul class="tags mb-4">
+                <ul class="tags mb-4 tags-postbox">
                     {% assign sortedCategories = page.categories | sort %}
                     {% for category in sortedCategories %}
                     <li>
@@ -122,7 +122,7 @@ post_class: post-template
             
 
             <!-- Post Tags -->
-            <div class="after-post-tags">
+            <!-- <div class="after-post-tags">
                 <ul class="tags">
                     {% assign sortedTags = page.tags | sort %}
                     {% for tag in sortedTags %}
@@ -131,7 +131,7 @@ post_class: post-template
                     </li>
                     {% endfor %}
                 </ul>
-            </div>
+            </div> -->
             <!-- End Tags -->
 
             <!-- Prev/Next -->
