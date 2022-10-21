@@ -18,6 +18,19 @@ post_class: post-template
         <!-- Post -->
         {% assign author = site.authors[page.author] %}
 
+        <!-- Post Categories -->
+        <div class="after-post-cats">
+            <ul class="tags mb-4">
+                {% assign sortedCategories = page.categories | sort %}
+                {% for category in sortedCategories %}
+                <li>
+                    <a class="smoothscroll" href="{{site.baseurl}}/categories#{{ category | replace: " ","-" }}">{{ category }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <!-- End Categories -->
+
         <div class="col-md-9 flex-first flex-md-unordered">
             <div class="mainheading">
 
@@ -107,18 +120,7 @@ post_class: post-template
                 </small>
             </p>
 
-            <!-- Post Categories -->
-            <div class="after-post-cats">
-                <ul class="tags mb-4">
-                    {% assign sortedCategories = page.categories | sort %}
-                    {% for category in sortedCategories %}
-                    <li>
-                        <a class="smoothscroll" href="{{site.baseurl}}/categories#{{ category | replace: " ","-" }}">{{ category }}</a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
-            <!-- End Categories -->
+            
 
             <!-- Post Tags -->
             <div class="after-post-tags">

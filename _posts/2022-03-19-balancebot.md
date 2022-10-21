@@ -5,7 +5,7 @@ subtitle: "A two wheeled robot balancing by PID control."
 author: Kojo
 categories: [ Mechatronics, Dynamic Systems and Control ]
 image: assets/images/posts/balancebot.jpg
-show_image_in_body: false
+show_image_in_body: true
 featured: true
 
 github_url: hhttps://github.com/kjwelbeck3/lanceBot_v1
