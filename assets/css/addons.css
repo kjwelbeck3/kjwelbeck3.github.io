@@ -99,3 +99,13 @@
     width: 75%;
     margin: auto;
 }
+
+.meta-right{
+    /* position: relative; */
+    top: 185px !important;
+    order: 2 !important;
+}
+
+.tags-postbox{
+    line-height: 30px;
+}
