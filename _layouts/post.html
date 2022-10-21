@@ -10,28 +10,27 @@ post_class: post-template
 <div class="container">
     <div class="row">
 
-        <!-- Post Share -->
-        <div class="col-md-2 pl-0">
-            <!-- {% include share.html %} -->
-        </div>
+        
 
         <!-- Post -->
         {% assign author = site.authors[page.author] %}
 
-        <!-- Post Categories -->
-        <div class="after-post-cats">
-            <ul class="tags mb-4">
-                {% assign sortedCategories = page.categories | sort %}
-                {% for category in sortedCategories %}
-                <li>
-                    <a class="smoothscroll" href="{{site.baseurl}}/categories#{{ category | replace: " ","-" }}">{{ category }}</a>
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
-        <!-- End Categories -->
+        
 
         <div class="col-md-9 flex-first flex-md-unordered">
+            <!-- Post Categories -->
+            <div class="after-post-cats">
+                <ul class="tags mb-4">
+                    {% assign sortedCategories = page.categories | sort %}
+                    {% for category in sortedCategories %}
+                    <li>
+                        <a class="smoothscroll" href="{{site.baseurl}}/categories#{{ category | replace: " ","-" }}">{{ category }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <!-- End Categories -->
+
             <div class="mainheading">
 
                 <!-- Author Box -->
@@ -149,6 +148,19 @@ post_class: post-template
 
         </div>
         <!-- End Post -->
+
+        <!-- Post Meta Summary -->
+        <div class="col-md-2 pl-0">
+            <!-- {% include share.html %} -->
+            
+            <!-- Meta Summary -->
+            <!-- <div class="sticky-top sticky-top-180"> -->
+                {% include metaSummary.html cl_nm=class_name cl_lnk=class_link gh=github_url period=project_period %}
+                <!-- </div> -->
+                
+    
+                <!-- End Meta Summary -->
+        </div>
 
     </div>
 </div>
