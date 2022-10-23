@@ -26,17 +26,21 @@ project_period: 11/10/21 - 12/6/21
 
 The inspiration was the wide application of robots in the manufacturing space.
 
-The goal was to prototype an assembly cell that would (1) take singly-arrayed dry-erase markers and singly-arrayed marker caps, (2) match colors between the caps and markers, (3) sort them into a color gradient, and (4) snap-fit the caps onto respective markers.
+The goal was to prototype an assembly cell that would 
+1. take singly-arrayed dry-erase markers and singly-arrayed marker caps, 
+2. match colors between the caps and markers, 
+3. sort them into a color gradient, and 
+4. snap-fit the caps onto respective markers.
 
 The result was a ROS package built on top of MoveIt!, the SMACH state machine library, OpenCV and some Franka-provided ROS packages. The project comes complete with some custom Python packages to facilitate manipulation, perception and state-transition tasks respectively, and culminated in a demonstration showcasing the reliable assembly of caps and markers.
 
 
-## The Setup
+### The Setup
 
 We built up an arrangement of 3 trays, one for each of (1) uncapped markers, (2) caps and (3) assembled caps and markers; and mounted an Intel Realsense camera to the robot wrist just above the end effector.
 
 
-## My Responsibilities
+### My Responsibilities
 
 My primary role was building out the sequence of robot manipulations. This was a layering process of wrapping MoveIt! functions and franka actions into atomic services; composing atomic service calls into higher level functions for constrained movements and for gripping and releasing caps and markers; and then, finally, exposing a couple pick-and-place services for use in the overarching state machine. At each level of abstraction, each service would return expressive messages for debugging purposes and for error-checking along the pick-and-place sequence.
 
@@ -45,7 +49,7 @@ The iterative process, to ensure reliability across the full scope of the protot
 I implemented a series of unit tests on the custom python packages: on the vision package, to verify the part and color detection algorithm on sample images; on the manipulation package, to check calculated absolute positions for tray locations; and on the state machine package to ensure correct matching between caps and markers and correct sorting on the assembled parts tray. The plan was to sort in ascending order of hues.
 
 
-## Opportunities for Further Development
+### Opportunities for Further Development
 
 Beyond a prototype, there are a few obvious areas for further development.
 
