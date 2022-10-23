@@ -23,7 +23,7 @@ project_period: 11/10/21 - 12/6/21
     allowfullscreen
 >
 </iframe>
-<figcaption>Full run of the 7-DOF Franka Panda robot arm, assembling markers and caps and sorting into gradients of hues.</figaption>
+<figcaption>Full run of the 7-DOF Franka Panda robot arm, assembling markers and caps and sorting into gradients of hues.</figcaption>
 </figure>
 
 The inspiration was the wide application of robots in the manufacturing space.
