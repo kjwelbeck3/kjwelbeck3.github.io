@@ -126,3 +126,8 @@ figcaption{
     color: #a9a9a9;
     text-align: center;
 }
+
+
+.article-post > p {
+    font-size: 16pt !important;
+}
