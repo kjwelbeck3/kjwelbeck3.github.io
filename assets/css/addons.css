@@ -120,14 +120,15 @@ figcaption{
     width: 75%;
     font-style: italic;
     font-weight: 300;
-    margin: 10px auto;
-    padding: 10px 0;
-    font-size: 16pt;
+    margin: 0px auto;
+    padding: 0;
+    font-size: 14pt;
     color: #a9a9a9;
     text-align: center;
 }
 
 
-.article-post > p {
-    font-size: 16pt !important;
+.article-post {
+    font-size: 1rem !important;
+    line-height: 2.2rem
 }

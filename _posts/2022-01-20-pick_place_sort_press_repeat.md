@@ -15,7 +15,7 @@ project_period: 11/10/21 - 12/6/21
 ---
 <figure>
 <iframe class="youtube-insert"
-    src="https://youtu.be/m37ZtrH2SsE"
+    src="https://www.youtube.com/embed/m37ZtrH2SsE"
     frameborder="0"
     allow="autoplay; encrypted-media"
     allowfullscreen
