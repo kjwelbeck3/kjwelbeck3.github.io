@@ -109,3 +109,20 @@
 .tags-postbox{
     line-height: 30px;
 }
+
+.youtube-insert{
+    width: 100%;
+    height: 510px;
+    
+}
+
+figcaption{
+    width: 75%;
+    font-style: italic;
+    font-weight: 300;
+    margin: 10px auto;
+    padding: 10px 0;
+    font-size: 16pt;
+    color: #a9a9a9;
+    text-align: center;
+}

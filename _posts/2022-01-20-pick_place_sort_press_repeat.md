@@ -14,9 +14,7 @@ class_name: Embedded Systems in Robotics
 project_period: 11/10/21 - 12/6/21
 ---
 <figure>
-<iframe
-    width="640"
-    height="480"
+<iframe class="youtube-insert"
     src="https://www.youtube.com/embed/UmX4kyB2wfg"
     frameborder="0"
     allow="autoplay; encrypted-media"
