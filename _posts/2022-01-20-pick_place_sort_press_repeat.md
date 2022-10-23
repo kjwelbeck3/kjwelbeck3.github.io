@@ -5,7 +5,7 @@ subtitle: "A robotic cell prototype to assemble arrays of dry-erase markers and 
 author: Kojo
 categories: [ ROS, Robotic Manipulation, Computer Vision, Manufacturing ]
 image: assets/images/posts/pickNplace.jpg
-show_image_in_body: true
+show_image_in_body: false
 featured: true
 
 github_url: https://github.com/kjwelbeck3/final-project-group-4-inc-1
