@@ -15,15 +15,14 @@ project_period: 01/04/21 - 03/18/21
 ---
 <figure>
 <iframe
-    width="640"
-    height="480"
-    src="https://www.youtube.com/embed/UmX4kyB2wfg"
+    class = "youtube-insert"
+    src="https://www.youtube.com/embed/1vmVGw6rdEQ"
     frameborder="0"
     allow="autoplay; encrypted-media"
     allowfullscreen
 >
 </iframe>
-<figcaption>LanceBot balancing, with minor(tentative!) disturbances</figaption>
+<figcaption>LanceBot balancing, with minor(tentative!) disturbances</figcaption>
 </figure>
 
 Like many dynamics and control theory enthusiasts before me, I sought out to design and build a two-wheeled balancing robot and to build intuition and experience about stabilizing unstable systems.
@@ -49,29 +48,27 @@ The PID-based controller, however, lends itself to robust control based on the r
 This milestone bookends a series of redesigns and rebuilds, a shift from a microprocessor implementation to a microcontroller build, where I have tighter control and more flexibility on control the control signal, timing and peripheral interfacing.
 
 <figure>
-<iframe
-    width="640"
-    height="480"
-    src="https://www.youtube.com/embed/UmX4kyB2wfg"
+<iframe class="youtube-insert"
+    src="https://www.youtube.com/embed/tM6XfRu1-X0"
     frameborder="0"
     allow="autoplay; encrypted-media"
     allowfullscreen
 >
 </iframe>
-<figcaption>Starts of balancing gingerly, then runs away.</figaption>
+<figcaption>Starts of balancing gingerly, then runs away.</figcaption>
 </figure>
 
 <figure>
 <iframe
     width="640"
     height="480"
-    src="https://www.youtube.com/embed/UmX4kyB2wfg"
+    src="https://www.youtube.com/embed/UrxwE6Zeq8E"
     frameborder="0"
     allow="autoplay; encrypted-media"
     allowfullscreen
 >
 </iframe>
-<figcaption>Calibrating and then loosely balancing.</figaption>
+<figcaption>Calibrating and then loosely balancing.</figcaption>
 </figure>
 
 
