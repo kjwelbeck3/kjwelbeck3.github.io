@@ -8,7 +8,7 @@ image: assets/images/posts/balancebot.jpg
 show_image_in_body: false
 featured: true
 
-github_url: hhttps://github.com/kjwelbeck3/lanceBot_v1
+github_url: https://github.com/kjwelbeck3/lanceBot_v1
 class_link: https://www.mccormick.northwestern.edu/robotics/curriculum/#independent-project
 class_name: MSR Independent Winter Project
 project_period: 01/04/21 - 03/18/21
